@@ -14,7 +14,7 @@ puzzleStrings.push(',,,8,,5,,,,,3,,,6,,,,7,,9,,,,3,8,,,,4,7,9,5,,3,,,,,,,7,1,,9,
 puzzleStrings.push(',,,,,,,,6,4,5,,6,,,,,2,,,,,8,3,7,,,,,3,,,,,,4,7,,4,,,,,5,,9,,6,,,8,,3,,,6,,,1,7,,,,,,,,,9,,,,,,,5,6,,,,');
 
 // Hard puzzles
-// 
+// https://www.puzzles.ca/sudoku_puzzles/sudoku_hard_475.html
 puzzleStrings.push(',,7,8,,,,9,,4,1,,,,,,5,,,6,,,,,8,2,,3,,,,8,,,,9,,,,,,7,,,3,,,4,3,,6,,,,,,,,2,4,5,,,,,,,1,,,,,9,,,,,,,,6');
 
 const puzzleArrays = puzzleStrings.map(str => str.split(',').map(v => v ? parseInt(v) : null));
